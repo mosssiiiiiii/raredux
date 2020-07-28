@@ -1,0 +1,9 @@
+{
+    "presets": [
+        ["@bable/preset-env" ,{"madules":true}]
+    ],
+    "plugins": [
+
+    ],
+    "comments": false
+}

@@ -4,8 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/raredux.js --out-file index.js",
+    "dev": "babel src/raredux.js --watch --out-file index.js"
   },
   "author": "mohsenhaghighatkhah",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5"
+  }
 }
